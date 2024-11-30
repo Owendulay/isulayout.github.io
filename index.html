@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Isabela State University - Cauayan City Campus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header with University Logo and Navigation -->
+    <header class="header" role="banner">
+        <div class="logo" aria-label="Isabela State University Logo">
+            <img src="isulogo.png" alt="Isabela State University Logo" />
+        </div>
+        
+        <nav class="navbar" aria-label="Main Navigation">
+            <ul class="nav-links">
+                <li><a href="#home" aria-label="Home">Home</a></li>
+                <li><a href="#map" aria-label="Campus Map">Campus Map</a></li>
+                <li><a href="#programs" aria-label="Academic Programs">Academic Programs</a></li>
+                <li><a href="#about" aria-label="About Us">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" aria-labelledby="home-heading">
+        <div class="hero-text">
+            <h1 id="home-heading">Welcome to ISU Cauayan City Campus</h1>
+            <p>Your Future Begins Here</p>
+        </div>
+    </section>
+
+    <!-- Campus Map Section -->
+    <section id="map" class="section map-section" aria-labelledby="map-heading">
+        <h2 id="map-heading">Campus Map</h2>
+        <div class="slider-container">
+            <div class="slider-wrapper" id="sliderWrapper">
+                <div class="slide"><img src="1st floor.jpg" alt="Campus View 1"></div>
+                <div class="slide"><img src="2nd floor.jpg" alt="Campus View 2"></div>
+                <div class="slide"><img src="3rd floor.jpg" alt="Campus View 3"></div>
+                <div class="slide"><img src="4ft floor.jpg" alt="Campus View 3"></div>
+            </div>
+            <div class="slider-nav">
+                <button id="prevButton">&lt;</button>
+                <button id="nextButton">&gt;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Programs Section -->
+    <section id="programs" class="section programs-section" aria-labelledby="programs-heading">
+        <h2 id="programs-heading">Academic Programs</h2>
+
+        <!-- College of Computing Studies -->
+        <details class="program" aria-labelledby="computing-heading">
+            <summary id="computing-heading">College of Computing Studies</summary>
+            <img src="images/computing-studies.jpg" alt="Computing Studies Building" class="department-image">
+            <ul>
+                <li>BS in Information Technology</li>
+                <li>BS in Computer Science</li>
+                <li>BS in Entertainment and Multimedia Computing
+                    <ul>
+                        <li>Network and Security</li>
+                        <li>Business Analytics</li>
+                        <li>Web and Application Development</li>
+                        <li>Business Processing Outsourcing</li>
+                    </ul>
+                </li>
+            </ul>
+        </details>
+
+        <!-- College of Business and Management -->
+        <details class="program" aria-labelledby="business-heading">
+            <summary id="business-heading">College of Business and Management</summary>
+            <img src="images/business-management.jpg" alt="Business Management Building" class="department-image">
+            <ul>
+                <li>BS in Entrepreneurship</li>
+                <li>BS in Business Administration
+                    <ul>
+                        <li>Major in Marketing managemant</li>
+                        <li>Major in Financial Management</li>
+                        <li>Major in Human Resource Management</li>
+                    </ul>
+                </li>
+            </ul>
+        </details>
+
+        <!-- College of Teacher Education -->
+        <details class="program" aria-labelledby="teacher-heading">
+            <summary id="teacher-heading">College of Teacher Education</summary>
+            <img src="images/teacher-education.jpg" alt="Teacher Education Building" class="department-image">
+            <ul>
+                <li>Bachelor of Elementary Education</li>
+                <li>Bachelor of Secondary Education
+                    <ul>
+                        <li>Major in English</li>
+                        <li>Major in Mathematics</li>
+                        <li>Major in Science</li>
+                        <li>Major in Filipino</li>
+                        <li>Major in Social Studies</li>
+                        <li>Major in Physical Education</li>
+                    </ul>
+                </li>
+            </ul>
+        </details>
+
+        <!-- College of Criminal Justice Education -->
+        <details class="program" aria-labelledby="criminal-justice-heading">
+            <summary id="criminal-justice-heading">College of Criminal Justice Education</summary>
+            <img src="images/Justice-education.jpg" alt="Justice Education Building" class="department-image">
+            <p>The criminology program aims to develop well-rounded individuals by providing a broad, holistic education that emphasizes not only technical skills but also ethical values, creativity, and leadership. Key goals include fostering critical thinking and competitiveness to address real-world issues, cultivating leadership skills for environmental stewardship, and nurturing a commitment to truth, integrity, and social responsibility. The program prepares students to contribute positively to their families, communities, and the nation by equipping them with the knowledge, attitudes, and habits necessary to uplift society and advocate for justice and sustainability.</p>
+        </details>
+
+        <!-- College of Law -->
+        <details class="program" aria-labelledby="law-heading">
+            <summary id="law-heading">College of Law</summary>
+            <img src="college-of-law.jpg" alt="College of Law Building" class="department-image">
+            <p>The law program aims to instill in students a deep understanding of the law, fairness, and equality, preparing them for legal practice while emphasizing respect for the rule of law and professional ethics. It fosters social responsibility to protect civil liberties, promotes leadership aligned with the needs of the Filipino people, and encourages active participation in shaping a society that upholds human dignity and freedom.</p>
+        </details>
+
+        <!-- Institute of Agricultural Technology -->
+        <details class="program" aria-labelledby="agricultural-tech-heading">
+            <summary id="agricultural-tech-heading">Institute of Agricultural Technology</summary>
+            <img src="institute-agriculture.jpg" alt="Institute of Agricultural Technology Building" class="department-image">
+            <p>The Institute of Agricultural Technology aims to produce skilled graduates to meet regional workforce needs, create and maintain valuable agricultural resources for instructional development, empower farmers and other stakeholders with enhanced knowledge and productivity, and actively engage in research and community-focused development programs.</p>
+        </details>
+
+        <!-- Polytechnic School -->
+        <details class="program" aria-labelledby="polytechnic-heading">
+            <summary id="polytechnic-heading">Polytechnic School</summary>
+            <img src="polytechnic-school.jpg" alt="Polytechnic School Building" class="department-image">
+            <p>The Polytechnic School aims to provide a strong foundation in the latest technological advancements, develop essential technical skills, safety practices, and workplace ethics, foster a positive disposition in interactions with others, ensure excellence and competence in task performance, and encourage perseverance and diligence in students' careers.</p>
+        </details>
+
+        <!-- School of Arts and Sciences -->
+        <details class="program" aria-labelledby="arts-sciences-heading">
+            <summary id="arts-sciences-heading">School of Arts and Sciences</summary>
+            <img src="SAS.jpg" alt="School of Arts and Sciences Building" class="department-image">
+            <p>The School of Arts and Sciences aims to provide students with a broad, well-rounded education, equipping them with critical thinking skills, creativity, and the ability to adapt to an ever-changing world. Its programs prepare students for a wide range of career opportunities in the arts, sciences, and humanities.</p>
+        </details>
+
+    </section>
+    <section id="about" class="hero" aria-labelledby="about-heading">
+        <div class="hero-text">
+            <h1 id="about-heading">Us</h1>
+            <h4>Chaspher Owen Dulay</h4>
+            <h4>Gian Carlo Saad</h4>
+            <h4>John Paul Versoza</h4>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Isabela State University - Cauayan City Campus. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
